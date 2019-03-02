@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 
 const About = ({ location }) => {
   return (
-    <Layout location={this.props.location}>
+    <Layout location={location}>
       <div>
         <h1>yo yo yo yo yo</h1>
       </div>
