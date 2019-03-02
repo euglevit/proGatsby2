@@ -1,5 +1,5 @@
 ---
-path: '/second-post'
+path: 'second-post'
 title: "Eugene's Second Post"
 date: '2018-03-03'
 ---

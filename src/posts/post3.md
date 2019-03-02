@@ -1,5 +1,5 @@
 ---
-path: '/third-post'
+path: 'third-post'
 title: "Eugene's Best Post"
 date: '2018-03-02'
 ---
