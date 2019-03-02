@@ -16,7 +16,7 @@ const MainLayout = styled.main`
   grid-gap: 40px;
 `;
 
-const Layout = ({ children }) => (
+const Layout = ({ children, location }) => (
   <StaticQuery
     query={graphql`
       query SiteQuery {
@@ -37,6 +37,7 @@ const Layout = ({ children }) => (
     `}
     render={(data) => {
       const { title } = data.site.siteMetadata;
+
       return (
         <>
           <Header siteTitle={title} />
@@ -76,6 +77,10 @@ const Layout = ({ children }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired
+};
+
+Layout.defaultProps = {
+  location: {}
 };
 
 export default Layout;
