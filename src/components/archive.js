@@ -31,7 +31,7 @@ const Archive = () => (
             <ul>
               {allMarkdownRemark.edges.map((edge) => (
                 <li key={edge.node.frontmatter.path}>
-                  <Link to={`/posts/${edge.node.frontmatter.path}`}>
+                  <Link to={`/${edge.node.frontmatter.path}`}>
                     {edge.node.frontmatter.title}
                   </Link>
                 </li>
