@@ -1,7 +1,7 @@
 ---
-path: '/second-post'
+path: 'second-post'
 title: "Eugene's Second Post"
-date: '2018-03-01'
+date: '2018-03-03'
 ---
 
 # New Header
