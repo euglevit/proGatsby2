@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Eugene's first site woohoo`,
     description: `A new blog`,
-    author: `@gatsbyjs`
+    author: `@gatsbyjs`,
+    siteUrl: 'https://cocky-brown-b1f30f.netlify.com/posts/first-post'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -47,6 +48,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-netlify',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-netlify-cms'
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
